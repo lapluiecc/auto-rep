@@ -11,7 +11,7 @@ from datetime import datetime
 # Configuration
 SERVER = "TON-NDD-SMS-GATEWAY"
 API_KEY = "TON-API-SMS-GATEWAY"
-LINK_RELAIS = "HTTPS://LIEN-A-SPAM.COM"
+LINK_RELAIS = "https://LIEN-A-SPAM.com"
 STORAGE_FILE = os.path.join(os.path.dirname(__file__), 'conversations.json')
 ARCHIVE_FILE = os.path.join(os.path.dirname(__file__), 'archived_numbers.json')
 LOG_FILE = '/tmp/log.txt'
