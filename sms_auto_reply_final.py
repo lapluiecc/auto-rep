@@ -9,8 +9,8 @@ from flask import Flask, request, abort, Response
 from datetime import datetime
 
 # Configuration
-SERVER = "TON-NDD-SMS-GATEWAY"
-API_KEY = "TON-API-SMS-GATEWAY"
+SERVER = "https://moncolis-attente.com/"
+API_KEY = "f376d32d14b058ed2383b97fd568d1b26de1b75c"
 LINK_RELAIS = "https://locker-colis-attente.com"
 STORAGE_FILE = os.path.join(os.path.dirname(__file__), 'conversations.json')
 ARCHIVE_FILE = os.path.join(os.path.dirname(__file__), 'archived_numbers.json')
